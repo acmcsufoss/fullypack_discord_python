@@ -2,10 +2,11 @@
 
 > A premade Discord bot using discord.py!
 
-- [Discord\_Python FullyPack](#discord_python-fullypack)
+- [Discord_Python FullyPack](#discord_python-fullypack)
   - [About FullyPacks 🐘🎁](#about-fullypacks-)
   - [About discord.py](#about-discordpy)
   - [How to Run Locally](#how-to-run-locally)
+  - [Generating an invite link](#generating-an-invite-link)
   - [Resources](#resources)
 
 ## About FullyPacks 🐘🎁
@@ -52,6 +53,20 @@ Using discord.py, developers can create custom commands, event listeners, and me
    ```terminal
    python3 src/client.py
    ```
+
+## Generating an invite link
+
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your bot application.
+
+2. Navigate to the **OAuth2** tab on the left-hand side of the screen.
+
+3. Under the **OAuth2 URL Generator** section, select the **bot** checkbox under the **Scopes** section.
+
+4. Scroll down to the **Bot Permissions** section and select the permissions you want your bot to have.
+
+5. Copy the generated OAuth2 URL under the **Scopes** section.
+
+6. Paste the generated URL into your browser and authorize the bot to join your server.
 
 ## Resources
 
