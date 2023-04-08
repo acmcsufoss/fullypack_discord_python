@@ -48,7 +48,9 @@ Using discord.py, developers can create custom commands, event listeners, and me
    pip install -r requirements.txt
    ```
 
-5. Run the app:
+5. Create a `.env` file following the format of `.env.example` and fill in the required values
+
+6. Run the app:
 
    ```terminal
    python3 src/client.py
